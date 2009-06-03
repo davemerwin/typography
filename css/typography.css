@@ -24,7 +24,7 @@
 
 /* =Typography
 ----------------------------------------------------------------------------*/
-body {font-size:14px; color:#404040; font-family:Helvetica, Arial, sans-serif;}
+body {font-size:14px; color:#808080; font-family:Helvetica, Arial, sans-serif;}
 
 /* =Baseline Grid
 ----------------------------------------------------------------------------*/
@@ -62,15 +62,79 @@ h5 {font-size:inherit;
 
 ul, ol { margin:0 0 20px 0;}
 ul {list-style:disc;}
-li {margin:0; padding:0;}
+li {margin:0; padding:0; line-height:20px;}
 
 /* =General
 ----------------------------------------------------------------------------*/
-a {font-weight:bold; text-decoration:none;}
+a {text-decoration:none;}
 a:visited {}
 a:hover {text-decoration:underline;}
 
-.sampleList {list-style:none;}
-.sample {padding:10px;}
+h1.pageTitle {color:#DAC968;}
 
-h3.sampleType {font-family:Helvetica, Arial, sans-serif; border-bottom:1px dotted #ccc; margin-bottom:19px; color:#ccc;}
+.sampleList {list-style:none;}
+.sample {background:#fff;}
+
+.sampleList li.alt {background:#efefef;}
+
+/* =Custom Font Families
+----------------------------------------------------------------------------*/
+#helveticalArial{
+	font-family:Helvetica, Arial, sans-serif;
+}
+#arialblackArialblack {
+	font-family: "Arial Black", "Arial Black", sans-serif;
+}
+#impactImpact {
+	font-family: Impact, sans-serif;
+}
+#lucidagrandeLucidaSansUnicode {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+#genevaTahoma {
+	font-family: Geneva, Tahoma, sans-serif;
+}
+#trebuchetMSArial {
+	font-family: "Trebuchet MS", Arial sans-serif;
+}
+#verdenaVerdena {
+	font-family: Verdana, sans-serif;
+}
+#genevaMSSansSerif {
+	font-family: Geneva, "MS Sans Serif", sans-serif;
+}
+#georgiaGeorgia {
+	font-family: Georgia, serif;
+}
+#palatinoPalatino {
+	font-family: Palatio, serif;
+}
+#timesTimesNewRoman {
+	font-family: Times, "Times New Roman", serif;
+}
+#newyorkMSSerif {
+	font-family: "New York", "MS Serif", serif;
+}
+#couriernewCourierNew {
+	font-family: "Courier New", monospace;
+}
+#monacoLucidaConsole {
+	font-family: Monaco, "Lucida Console", monospace;
+}
+#comicsansComicSans {
+	font-family: "Comic Sans", cursive;
+}
+#symbolSymbol {
+	font-family: Symbol;
+}
+#webdingsWebdings {
+	font-family: Webdings;
+}
+#dingbatsDingbats {
+	font-family: "Zapf Dingbats", Wingdings;
+}
+
+h3.sectionHeader {border-bottom:1px dotted #ccc; margin-bottom:19px; color:#ccc;}
+h4.sampleType {font-family: Helvetica, Arial, sans-serif; color:#000;}
+.top {font-family: Helvetica, Arial, sans-serif; font-variant:small-caps;}
+#col3 ul {list-style:none;}
