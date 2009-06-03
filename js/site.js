@@ -30,5 +30,5 @@ $(document).ready(function(){
 	
 	$('#default-submit').css('display', 'block');
 	
-	$('body').append('<script src="googleanlytics.js" type="text/javascript" charset="utf-8"></script>');
+	$('#analytics').replaceWith('<script src="googleanlytics.js" type="text/javascript" charset="utf-8"></script>');
 });
