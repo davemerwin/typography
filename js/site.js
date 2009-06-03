@@ -7,6 +7,32 @@ $(document).ready(function(){
 	
 	$('li.sample').append('<div class="grid_5 omega"><h1>Lorem Ipsum Dolor Sit</h1><h2>Lorem Ipsum Dolor Sit</h2><h4>Lorem Ipsum Dolor Sit</h4><h4>Lorem Ipsum Dolor Sit</h4><p>Lorem ipsum dolor sit amet, <a href="http://www.twitter.com/davemerwin">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt <strong>ut labore</strong> et dolore magna aliqua. Ut enim ad <em>minim veniam</em>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p><p class="top"><a href="#wrap">top</a></p></div>');
 	
+	$('.toggleAll').click(function() {
+		$('.toggleAll span').toggle();
+		return false;
+	});
+	
+	$('.allShow').click(function() {
+		$('.sampleList').slideDown('fast');
+	});
+	
+	$('.allHide').click(function() {
+		$('.sampleList').css('display', 'none').slideUp('fast');
+	});
+	
+	$('.sampleToggle a').click(function() {
+		$(this).children('span').toggle();
+		return false;
+	});
+	
+	$('.sampleShow').click(function() {
+		$(this).parent().parent().parent().siblings('.sampleList').slideDown('fast');
+	});
+	
+	$('.sampleHide').click(function() {
+		$(this).parent().parent().parent().siblings('.sampleList').css('display', 'none').slideUp('fast');
+	});
+		
 	$('.sampleList li:odd').addClass('alt');
 	
 	$('#helveticalArial').prepend('<h4 class="sampleType grid_3 alpha">Helvetica &amp; Arial</h4>');
@@ -30,5 +56,4 @@ $(document).ready(function(){
 	
 	$('#default-submit').css('display', 'block');
 	
-	$('#analytics').replaceWith('<script src="googleanlytics.js" type="text/javascript" charset="utf-8"></script>');
 });

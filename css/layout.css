@@ -7,3 +7,9 @@
 ----------------------------------------------------------------------------*/
 body {background:#fff;}
 form {margin:0 0 20px;}
+
+.allHide {display:none;}
+.sampleList {display:none;}
+.sampleHide {display:none;}
+
+.sampleToggle {font-size:10px; font-weight:normal; letter-spacing:0; position:absolute; bottom:0; right:0;}

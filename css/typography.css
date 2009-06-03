@@ -134,7 +134,7 @@ h1.pageTitle {color:#DAC968;}
 	font-family: "Zapf Dingbats", Wingdings;
 }
 
-h3.sectionHeader {border-bottom:1px dotted #ccc; margin-bottom:19px; color:#ccc;}
+h3.sectionHeader {border-bottom:1px dotted #ccc; margin-bottom:19px; color:#ccc; position:relative;}
 h4.sampleType {font-family: Helvetica, Arial, sans-serif; color:#000;}
 .top {font-family: Helvetica, Arial, sans-serif; font-variant:small-caps;}
 #col3 ul {list-style:none;}
