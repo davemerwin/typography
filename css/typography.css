@@ -24,7 +24,7 @@
 
 /* =Typography
 ----------------------------------------------------------------------------*/
-body {font-size:14px; color:#404040;}
+body {font-size:14px; color:#404040; font-family:Helvetica, Arial, sans-serif;}
 
 /* =Baseline Grid
 ----------------------------------------------------------------------------*/
@@ -60,35 +60,17 @@ h5 {font-size:inherit;
 	margin:0;
 }
 
-ul, ol { margin:0 0 20px 0; }
+ul, ol { margin:0 0 20px 0;}
+ul {list-style:disc;}
 li {margin:0; padding:0;}
 
 /* =General
 ----------------------------------------------------------------------------*/
-
-#siteName {padding:20px 0 0 10px; line-height:100%;}
-
 a {font-weight:bold; text-decoration:none;}
 a:visited {}
 a:hover {text-decoration:underline;}
 
-#pageContent p, .snapshot p {text-align:justify;}
+.sampleList {list-style:none;}
+.sample {padding:10px;}
 
-#secondaryContent h3 {background:#444; color:#e6e6e6; padding:0 5px; font-variant:small-caps; margin:0 0 5px 0;}
-
-#previewBlock h3 {background:#444444; color:#E6E6E6; text-transform:caps;}
-
-.sidebarBlock h4 {padding:0; outline-bottom:1px #ccc dotted;}
-
-.listItem p {margin:0;}
-
-.required {color:#000; font-weight:bold;}
-.error p {padding:0; margin:0; height:20px; font-weight:bold; color:#fff;}
-
-.smaller {font-size:66%;}
-.larger {font-size:116%;}
-
-#legalBlock h4 {margin:0;}
-.metaBlock {font-size:12px; line-height:20px;}
-
-#sidebar h4 {border-bottom:1px dotted #ccc; margin:0 0 19px;}
+h3.sampleType {font-family:Helvetica, Arial, sans-serif; border-bottom:1px dotted #ccc; margin-bottom:19px; color:#ccc;}
